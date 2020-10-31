@@ -1,10 +1,19 @@
-python cli for some memey stuff (currently MacOS only).
+CLI for some memey stuff (currently MacOS only).
+
+**\[Warning - may have some inappropriate language due to the nature of some copypastas \]**
 
 Deps:
 
   - Python3
   - pbcopy (I believe this is a MacOS builtin)
 
-Setup:
-  - either run it with `python3 meme.py` or set it up using `chmod +x` and run it as `./meme.py`
-    - optionally stick it into a location in your PATH env variable
+Setup (optional):
+   - stick it into a directory in your PATH env variable and `chmod +x` it
+
+Usage:
+  - either run it with `python3 meme.py` simply `meme.py` if you did the optional setup
+
+Examples:
+
+![img](./img/README/lol.jpg)
+
