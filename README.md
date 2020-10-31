@@ -1,6 +1,6 @@
 **\[Warning - may have some inappropriate language due to the nature of some copypastas \]**
 
-CLI for some memey stuff (currently MacOS only).
+CLI for some memey stuff (currently MacOS only). Use \<TAB\> for autocompletion!
 
 Deps:
 
