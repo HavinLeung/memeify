@@ -1,6 +1,6 @@
-CLI for some memey stuff (currently MacOS only).
-
 **\[Warning - may have some inappropriate language due to the nature of some copypastas \]**
+
+CLI for some memey stuff (currently MacOS only).
 
 Deps:
 
