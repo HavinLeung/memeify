@@ -106,7 +106,6 @@ class Meme(cmd.Cmd):
         t = spongebob(arg)
         print(t)
         copy_to_clipboard_macos_only(t)
-        return True
 
     def do_copypasta(self, arg):
         'copy a common copypasta to your clipboard'
@@ -116,7 +115,6 @@ class Meme(cmd.Cmd):
         t = copypastas[arg]
         print(t)
         copy_to_clipboard_macos_only(t)
-        return True
     
     def complete_copypasta(self, text, line, begidx, endidx):
         if not text:
