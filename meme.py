@@ -103,6 +103,9 @@ class Meme(cmd.Cmd):
     prompt = '(meme) > '
     def do_spongebob(self, arg):
         'turn text input into SpOnGeboB mOCkiNg mEMe'
+        if not arg:
+            print('invalid usage!')
+            return
         t = spongebob(arg)
         print(t)
         copy_to_clipboard_macos_only(t)
@@ -129,4 +132,9 @@ class Meme(cmd.Cmd):
         return True
 
 if __name__ == '__main__':
-    Meme().cmdloop()
+    app = Meme()
+    if len(sys.argv) > 1:
+        app.onecmd(' '.join(sys.argv[1::]))
+    else:
+        app.cmdloop()
+
